@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.h5
+*.ckpt
+models/
+*.log
+.env
+.vscode/
+.DS_Store
+waste_classifier.h5
