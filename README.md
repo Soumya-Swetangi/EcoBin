@@ -17,23 +17,7 @@ Built with TensorFlow for model training and Streamlit for an interactive web in
 
 ✅ Lightweight and easy to deploy
 
-📂 Project Structure
-EcoBin/
-│── dataset/                # Training and validation images
-│   ├── train/
-│   │   ├── Hazardous/
-│   │   ├── Organic/
-│   │   ├── Recyclable/
-│   ├── val/
-│       ├── Hazardous/
-│       ├── Organic/
-│       ├── Recyclable/
-│
-│── model.py                # Model training script
-│── app.py                  # Streamlit UI app
-│── waste_classifier.h5     # Trained model (saved after training)
-│── requirements.txt        # Dependencies
-│── README.md               # Documentation
+
 
 ⚙️ Installation
 
@@ -56,17 +40,7 @@ pip install -r requirements.txt
 
 📊 Training the Model
 
-Place your dataset in the dataset/ folder, structured as:
 
-dataset/
- ├── train/
- │   ├── Hazardous/
- │   ├── Organic/
- │   ├── Recyclable/
- ├── val/
-     ├── Hazardous/
-     ├── Organic/
-     ├── Recyclable/
 
 
 Run training:
